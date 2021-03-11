@@ -78,3 +78,9 @@ public abstract class Pokemon {
 	  return false;
   }
 }
+
+
+// Comments
+// Made
+// By
+// Sobia
