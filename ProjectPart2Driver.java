@@ -19,6 +19,7 @@ public class ProjectPart2Driver {
 		System.out.println(numPrecision);
 		double levelOfAccuracy = numPeople.getAccuracy(data);
 		System.out.println(levelOfAccuracy);
+		Graph1 gra = new Graph1(3, "C:\\Users\\noree\\eclipse-workspace\\Cs112Lectures\\Project1\\titanic.csv");
 
 		
 		JFrame frame = new JFrame("Titanic Predictor");
@@ -37,8 +38,8 @@ public class ProjectPart2Driver {
         JLabel pLabel = new JLabel("The precisionis: "+ numPrecision);
         p1.add(pLabel);
 	    frame.add(p1);
+	    frame.add(gra);
 
 	}
 
 }
-
